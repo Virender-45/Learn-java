@@ -22,7 +22,7 @@ public class Main {
         System.out.println(replaceName);
 
         //Sub String
-        System.out.println(fullName.substring(0, 8));*/
+        System.out.println(fullName.substring(0, 8));
 
 
         //Arrays
@@ -30,6 +30,7 @@ public class Main {
         int age = 20;
 
         int[] marks = new int[3];
+//        int[] marks = {99, 91, 94};       Other way of declaring without 'new' keyword
         marks[0] = 99;
         marks[1] = 91;
         marks[2] = 94;
@@ -44,6 +45,8 @@ public class Main {
       System.out.println(marks[0]);
       for (int i = 0; i < 3; i++) {
           System.out.println(marks[i]);
-      }
+      }*/
+
+        
     }
 }

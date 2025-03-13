@@ -46,7 +46,14 @@ public class Main {
       for (int i = 0; i < 3; i++) {
           System.out.println(marks[i]);
       }*/
+        //2D Arrays
+        int[][] marks = {{97, 96, 92}, {87, 94, 99}};
 
-        
+        for(int i = 0; i < marks.length; i++){
+            for(int j = 0; j < marks[i].length; j++){
+                System.out.println(marks[i][j]);
+            }
+        }
+
     }
 }

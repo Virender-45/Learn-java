@@ -18,5 +18,8 @@ public class Main {
 
         String replaceName = fullName.replace('e', 'a');
         System.out.println(replaceName);
+
+        //Sub String
+        System.out.println(fullName.substring(0, 8));
     }
 }

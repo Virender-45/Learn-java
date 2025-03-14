@@ -53,7 +53,7 @@ public class Main {
             for(int j = 0; j < marks[i].length; j++){
                 System.out.println(marks[i][j]);
             }
-        }*/
+        }
 
         //Casting
 
@@ -65,7 +65,16 @@ public class Main {
         int p = 100;
         int fP = p + (int)18.0;
 
-        System.out.println(fP);
+        System.out.println(fP);*/
+
+        //Casting
+
+        int age = 20;
+        age = 21;
+        age = 22;
+
+        final float PI = 31.14F;
+        
 
     }
 }

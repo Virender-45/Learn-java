@@ -73,7 +73,7 @@ public class Main {
         age = 21;
         age = 22;
 
-        final float PI = 31.14F;*/
+        final float PI = 31.14F;
 
 
         //Operators
@@ -90,7 +90,13 @@ public class Main {
         double a1 = 10;
         double b1 = 3;
         double div = a1 / b1;
-        System.out.println(div);
+        System.out.println(div);*/
+
+        //Maths Class functions
+
+        System.out.println(Math.max(10, 7));
+        System.out.println(Math.min(10, 7));
+        System.out.println((int)(Math.random()*100));   //casting
 
     }
 }

@@ -63,7 +63,9 @@ public class Main {
         System.out.println(finalPrice);
 
         int p = 100;
-        int fP = p + 18.0;
+        int fP = p + (int)18.0;
+
+        System.out.println(fP);
 
     }
 }

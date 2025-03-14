@@ -65,7 +65,7 @@ public class Main {
         int p = 100;
         int fP = p + (int)18.0;
 
-        System.out.println(fP);*/
+        System.out.println(fP);
 
         //Casting
 
@@ -73,8 +73,24 @@ public class Main {
         age = 21;
         age = 22;
 
-        final float PI = 31.14F;
-        
+        final float PI = 31.14F;*/
+
+
+        //Operators
+
+        int a = 10;
+        int b = 3;
+        int sum = a + b;
+        int mul = a * b;
+        int diff = a - b;
+        System.out.println(sum);
+        System.out.println(mul);
+        System.out.println(diff);
+
+        double a1 = 10;
+        double b1 = 3;
+        double div = a1 / b1;
+        System.out.println(div);
 
     }
 }

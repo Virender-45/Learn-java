@@ -30,7 +30,7 @@ public class Main {
         int age = 20;
 
         int[] marks = new int[3];
-//        int[] marks = {99, 91, 94};       Other way of declaring without 'new' keyword
+        //int[] marks = {99, 91, 94};       Other way of declaring without 'new' keyword
         marks[0] = 99;
         marks[1] = 91;
         marks[2] = 94;
@@ -45,7 +45,7 @@ public class Main {
       System.out.println(marks[0]);
       for (int i = 0; i < 3; i++) {
           System.out.println(marks[i]);
-      }*/
+      }
         //2D Arrays
         int[][] marks = {{97, 96, 92}, {87, 94, 99}};
 
@@ -53,7 +53,17 @@ public class Main {
             for(int j = 0; j < marks[i].length; j++){
                 System.out.println(marks[i][j]);
             }
-        }
+        }*/
+
+        //Casting
+
+        double price = 100.00;
+        double finalPrice = price + 18;
+
+        System.out.println(finalPrice);
+
+        int p = 100;
+        int fP = p + 18.0;
 
     }
 }

@@ -146,7 +146,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Invaild Input");
-        }*/
+        }
 
         //Loops, for
         for (int i = 0; i <= 100; i++)
@@ -168,7 +168,24 @@ public class Main {
         do {
             System.out.println(j);
             j++;
-        }while(j <= 1000);
+        }while(j <= 1000);*/
+
+
+        //Break and continue
+
+        int i = 0;
+        while(true){
+            if(i == 3) {
+                i++;
+                continue;
+            }
+            System.out.println(i);
+            if(i >= 10){
+                break;
+            }
+
+            i++;
+        }
 
     }
 }

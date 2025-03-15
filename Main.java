@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;   //For taking input
 
 public class Main {
 
@@ -90,13 +91,28 @@ public class Main {
         double a1 = 10;
         double b1 = 3;
         double div = a1 / b1;
-        System.out.println(div);*/
+        System.out.println(div);
 
         //Maths Class functions
 
         System.out.println(Math.max(10, 7));
         System.out.println(Math.min(10, 7));
-        System.out.println((int)(Math.random()*100));   //casting
+        System.out.println((int)(Math.random()*100));   //casting*/
+
+        //Taking input
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your age : ");
+        int age = sc.nextInt();
+        //System.out.println(age);
+        if(age >= 18)
+            System.out.println("You are an adult now because your age is : " + age);
+        else
+            System.out.println("You are not an adult because your age is : " + age);
+
+        System.out.print("Enter your name : ");
+        String name = sc.nextLine();
+        System.out.print(name);
 
     }
 }

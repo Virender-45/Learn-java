@@ -112,7 +112,7 @@ public class Main {
 
         System.out.print("Enter your name : ");
         String name = sc.nextLine();
-        System.out.print(name);*/
+        System.out.print(name);
 
 
         //Switch Statement
@@ -146,7 +146,29 @@ public class Main {
                 break;
             default:
                 System.out.println("Invaild Input");
+        }*/
+
+        //Loops, for
+        for (int i = 0; i <= 100; i++)
+            System.out.println(i);
+
+        for (int i = 100; i >= 1; i--)
+            System.out.println(i);
+
+        //While loop
+        int i = 0;
+
+        while (i <= 100){
+            System.out.println(i);
+            i++;
         }
+
+        //Do while loop
+        int j = 100;
+        do {
+            System.out.println(j);
+            j++;
+        }while(j <= 1000);
 
     }
 }

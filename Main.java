@@ -168,7 +168,7 @@ public class Main {
         do {
             System.out.println(j);
             j++;
-        }while(j <= 1000);*/
+        }while(j <= 1000);
 
 
         //Break and continue
@@ -185,7 +185,21 @@ public class Main {
             }
 
             i++;
+        }*/
+
+
+        //TRY CATCH in Exception Handling
+
+        int[] marks = {97, 94, 99};
+        try {
+            System.out.println(marks[8]);
+        }catch(Exception exception){
+            //Do something after catching
+            System.out.println("Exception occured");
         }
+        System.out.println("Hello World");
+
+
 
     }
 }

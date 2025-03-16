@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Methods
-        addNum(10, 36);
+//        addNum(10, 36);
 
 
         /*byte age = 20;
@@ -213,6 +213,28 @@ public class Main {
         }
         System.out.println("Hello World");*/
 
+
+        //mini project
+
+        int rand = (int)(Math.random()*100);
+        Scanner sc = new Scanner(System.in);
+        int userChoice = 0;
+
+        do {
+            System.out.print("Guess the number : ");
+            userChoice = sc.nextInt();
+
+            if(userChoice == rand){
+                System.out.println("You guess the right number " + rand);
+                break;
+            }
+            else if(userChoice > rand){
+                System.out.println("Your number is greater then the random number");
+            }
+            else if(userChoice < rand){
+                System.out.println("Your number is less then the random number");
+            }
+        }while(userChoice >= 0);
 
     }
 }

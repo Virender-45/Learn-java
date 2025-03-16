@@ -3,7 +3,21 @@ import java.util.Scanner;   //For taking input
 
 public class Main {
 
+    public static void print(){
+        System.out.println("hello World");
+    }
+
+    public static void addNum(int a, int b){
+        int res = a + b;
+        System.out.println(res);
+    }
+
     public static void main(String[] args) {
+
+        //Methods
+        addNum(10, 36);
+
+
         /*byte age = 20;
         int phone = 856523234;
         long phone2 = 85652323445353L;
@@ -185,7 +199,7 @@ public class Main {
             }
 
             i++;
-        }*/
+        }
 
 
         //TRY CATCH in Exception Handling
@@ -197,8 +211,7 @@ public class Main {
             //Do something after catching
             System.out.println("Exception occured");
         }
-        System.out.println("Hello World");
-
+        System.out.println("Hello World");*/
 
 
     }
